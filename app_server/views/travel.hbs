@@ -16,6 +16,7 @@
 						<div class="body">
 							<h1>Travel</h1>
 							<ul id="sites">
+								{{#each trips}}
 								<li>
 									<a href=“travel.html"><img src="images/reef1.jpg" alt="Img"></a>
 									<h2><a href=“travel.html">Gale Reef</a></h2>
@@ -26,6 +27,8 @@
 										Sed consequat libero ut turpis venenatis ut aliquam risus semper. Etiam convallis mi vel risus pretium sodales. Etiam nunc lorem ullamcorper vitae laoreet.
 									</p>
 								</li>
+								{{/each}}
+								{{#each trips}}
 								<li>
 									<a href=“travel.html"><img src="images/reef2.jpg" alt="Img"></a>
 									<h2><a href=“travel.html">Dawson’s Reef</a></h2>
@@ -36,6 +39,8 @@
 										vulputate, vulputate at est. Morbi aliquet viverra metus eu consectetur. In lorem dui, elementum sit amet convallis ac, tincidunt vel sapien.
 									</p>
 								</li>
+								{{/each}}
+								{{#each trips}}
 								<li>
 									<a href=“travel.html"><img src="images/reef3.jpg" alt="Img"></a>
 									<h2><a href=“travel.html">Claire’s REEF</a></h2>
@@ -46,6 +51,7 @@
 										Vulputate eget libero. In hac habitasse platea dictumst. Integer purus justo, egestas eu consectetur eu, cursus in tortor. Quisque nec nunc ac mi ultrices iaculis.
 									</p>
 								</li>
+								{{/each}}
 							</ul>
 						</div>
 					</div>
